@@ -1,0 +1,38 @@
+{
+  "name": "shipper-api",
+  "version": "0.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp && node dist"
+  },
+  "author": "",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "restify": "~2.8.3",
+    "request": "~2.48.0",
+    "soap": "~0.6.0",
+    "lodash": "~2.4.1",
+    "socket.io": "~1.2.0",
+    "q": "~1.1.1",
+    "cheerio": "~0.18.0",
+    "passport": "~0.2.1",
+    "passport-local": "~1.0.0",
+    "node-uuid": "~1.4.1",
+    "validator": "~3.22.1",
+    "passport-http-bearer": "~1.0.1",
+    "jsonwebtoken": "~1.1.2",
+    "schemajs": "~0.1.11",
+    "riakpbc": "~2.1.0",
+    "roboname": "~1.0.0",
+    "bcrypt": "~0.8.0"
+  },
+  "devDependencies": {
+    "gulp": "~3.8.10",
+    "gulp-coffee": "~2.2.0",
+    "mkdirp": "~0.5.0",
+    "gulp-rimraf": "~0.1.1",
+    "path": "~0.4.9"
+  }
+}
